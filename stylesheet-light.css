@@ -1,0 +1,12 @@
+/* Used instead of stylesheet.css when GNOME Shell uses its light style. */
+@import url("stylesheet.css");
+
+.aiu-pace,
+.aiu-warning {
+  color: #9c6e03;
+}
+
+.aiu-tab:hover,
+.aiu-icon-button:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}

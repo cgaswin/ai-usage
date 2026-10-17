@@ -1,0 +1,108 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+.aiu-menu {
+  min-width: 360px;
+  spacing: 16px;
+  padding: 4px 2px;
+}
+
+.aiu-panel-label {
+  padding-right: 4px;
+}
+
+.aiu-tabs {
+  spacing: 4px;
+}
+
+.aiu-tab {
+  padding: 6px 10px;
+  border-radius: 99px;
+  font-weight: bold;
+}
+
+.aiu-tab:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aiu-tab:checked {
+  background-color: -st-accent-color;
+  color: -st-accent-fg-color;
+}
+
+.aiu-tab:focus {
+  box-shadow: inset 0 0 0 2px -st-accent-color;
+}
+
+.aiu-body {
+  spacing: 16px;
+}
+
+.aiu-section {
+  spacing: 4px;
+}
+
+.aiu-dim {
+  color: rgba(127, 127, 127, 1);
+}
+
+.aiu-group {
+  spacing: 12px;
+}
+
+.aiu-group-title {
+  font-weight: bold;
+}
+
+.aiu-remaining {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.aiu-pace {
+  color: #e5a50a;
+}
+
+.aiu-message {
+  max-width: 320px;
+}
+
+.aiu-warning {
+  spacing: 8px;
+  max-width: 340px;
+  color: #e5a50a;
+}
+
+.aiu-bar {
+  height: 8px;
+  margin: 4px 0;
+  border-radius: 4px;
+  background-color: rgba(127, 127, 127, 0.3);
+}
+
+.aiu-bar-fill {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.aiu-ok { background-color: #2ec27e; }
+.aiu-low { background-color: #e5a50a; }
+.aiu-critical { background-color: #e01b24; }
+
+.aiu-footer {
+  spacing: 4px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(127, 127, 127, 0.3);
+}
+
+.aiu-icon-button {
+  padding: 6px;
+  border-radius: 99px;
+}
+
+.aiu-icon-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aiu-tab-content {
+  spacing: 6px;
+}
