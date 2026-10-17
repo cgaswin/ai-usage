@@ -1,0 +1,9 @@
+{
+  "uuid": "ai-usage@cgaswin.github.io",
+  "name": "AI Usage",
+  "description": "Shows the 5-hour and weekly usage limits of your AI coding tools (Codex, Claude Code, Antigravity) in the top bar.\n\nData comes only from the official command-line tools on your computer. The extension reads no tokens and makes no network requests of its own.\n\nNot affiliated with OpenAI, Anthropic or Google.",
+  "url": "https://github.com/cgaswin/ai-usage",
+  "settings-schema": "org.gnome.shell.extensions.ai-usage",
+  "shell-version": ["49", "50"],
+  "version-name": "0.1.0"
+}

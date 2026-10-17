@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<schemalist>
+  <schema id="org.gnome.shell.extensions.ai-usage" path="/org/gnome/shell/extensions/ai-usage/">
+    <key name="refresh-interval" type="u">
+      <range min="1" max="60"/>
+      <default>5</default>
+      <summary>Minutes between usage checks</summary>
+    </key>
+    <key name="selected-provider" type="s">
+      <default>'codex'</default>
+      <summary>Provider shown in the top bar and menu</summary>
+    </key>
+    <key name="show-codex" type="b">
+      <default>true</default>
+      <summary>Show Codex</summary>
+    </key>
+    <key name="show-claude" type="b">
+      <default>true</default>
+      <summary>Show Claude Code</summary>
+    </key>
+    <key name="show-antigravity" type="b">
+      <default>true</default>
+      <summary>Show Antigravity</summary>
+    </key>
+    <key name="codex-path" type="s">
+      <default>''</default>
+      <summary>Path to the codex executable</summary>
+      <description>Leave empty to find it in PATH and the usual install locations.</description>
+    </key>
+    <key name="claude-path" type="s">
+      <default>''</default>
+      <summary>Path to the claude executable</summary>
+      <description>Leave empty to find it in PATH and the usual install locations.</description>
+    </key>
+    <key name="agy-path" type="s">
+      <default>''</default>
+      <summary>Path to the agy executable</summary>
+      <description>Leave empty to find it in PATH and the usual install locations.</description>
+    </key>
+  </schema>
+</schemalist>
