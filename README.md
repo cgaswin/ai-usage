@@ -9,6 +9,9 @@ See how much of your AI coding limits is left, right in the GNOME top bar.
 ![GNOME Shell 49–50](https://img.shields.io/badge/GNOME_Shell-49_%E2%80%93_50-4a86cf?logo=gnome&logoColor=white)
 ![License: GPL-2.0-or-later](https://img.shields.io/badge/license-GPL--2.0--or--later-blue)
 
+<img src="data/screenshot-claude.png" width="420" alt="Claude Code tab with 18% of the 5-hour limit left and a pace warning">
+<img src="data/screenshot-codex.png" width="420" alt="Codex tab with the 5-hour and weekly limits">
+
 </div>
 
 ## Features
