@@ -41,10 +41,7 @@ export default class AiUsageExtension extends Extension {
             select: id => this._settings.set_string('selected-provider', id),
             refresh: () => this._refreshAll(0, 0),
             openSettings: () => this.openPreferences(),
-        });
-        this._indicator.menu.connect('open-state-changed', (_menu, open) => {
-            if (open)
-                this._refreshAll(STALE_SECONDS, STALE_SECONDS);
+            opened: () => this._refreshAll(STALE_SECONDS, STALE_SECONDS),
         });
         Main.panel.addToStatusArea(this.uuid, this._indicator);
 
